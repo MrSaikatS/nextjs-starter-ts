@@ -2,11 +2,9 @@ import Welcome from "../components/Welcome";
 
 const index = () => {
 	return (
-		<>
-			<div className='text-center text-4xl mt-4'>
-				<Welcome />
-			</div>
-		</>
+		<div className='grid place-items-center h-screen text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600'>
+			<Welcome />
+		</div>
 	);
 };
 
